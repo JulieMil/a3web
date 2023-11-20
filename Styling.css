@@ -9,8 +9,10 @@
     * {font-family: "Century Gothic" ;}
 
 /* Element specific formating */
-    h1 {text-align: center;}
+    h1 {text-align: center; color: #fff}
+    h2 {text-align: center; font-family: "Bodoni MT"; color: #fff}
     body {background-color: #8d9db6;}
 
 /* id selectors */
-    #heading {background-color: #667292 ;}
+    #heading {background-color: #667292;padding-top: 32px;
+        padding-bottom: 32px;}
