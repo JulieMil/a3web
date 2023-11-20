@@ -1,1 +1,16 @@
 /* Julies Code starts here */
+    /* our colours
+    #bccad6  - light blue -grey
+    #8d9db6  - blue/grey
+    #667292  - dark blue
+    #f1e3dd  - pinky beige
+
+/*Website wide formating*/
+    * {font-family: "Century Gothic" ;}
+
+/* Element specific formating */
+    h1 {text-align: center;}
+    body {background-color: #8d9db6;}
+
+/* id selectors */
+    #heading {background-color: #667292 ;}
