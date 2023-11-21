@@ -43,3 +43,17 @@
   background-color: #667292;
 }
 /* Laura's Code Ends Here */
+
+/**********************
+* Owner : Alison Cooke
+* Date : Nov 21, 2023
+* From : https://www.w3schools.com/colors/colors_palettes.asp
+***********************/
+footer {text-align: center;
+	padding: 10px; 
+	background-color: #667292;
+	color: white;
+	}
+p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	}
+/* End Owner : Alison Cooke*/
