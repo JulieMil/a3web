@@ -43,15 +43,7 @@
   background-color: #667292;
 }
 /* Laura's Code Ends Here */
-/*Alanah Code Starts Here*/
-/*Taken from W3 school https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical_responsive*/
-@media screen and (max-width: 50 %) {
-  div.topnav li a {
-    text-align: center;
-    float: none;
-  }
-}
-/*Alanah End*/
+
 /* Jordan's Code Starts Here */
 /* page sub headings*/
 h3 {color: #fff;
