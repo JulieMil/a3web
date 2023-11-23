@@ -45,7 +45,7 @@
 /* Laura's Code Ends Here */
 /*Alanah Code Starts Here*/
 /*Taken from W3 school https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical_responsive*/
-@media screen and (max-width: 4000px) {
+@media screen and (max-width: 50 %) {
   .topnav a {
     text-align: center;
     float: none;
