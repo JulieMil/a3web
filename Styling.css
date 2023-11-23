@@ -45,27 +45,13 @@
 /* Laura's Code Ends Here */
 /*Alanah Code Starts Here*/
 /*Taken from W3 school https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical_responsive*/
-@media screen and (max-width: 900px) {
-  ul.sidenav {
-    width: 100%;
-    height: auto;
-    position: relative;
-  }
-  
-  ul.sidenav li a {
-    float: left;
-    padding: 15px;
-  }
-  
-  div.content {margin-left: 0;}
-}
-/*Alanah Code Ends*/
 @media screen and (max-width: 400px) {
   ul.sidenav li a {
     text-align: center;
     float: none;
   }
 }
+/*Alanah End*/
 /* Jordan's Code Starts Here */
 /* page sub headings*/
 h3 {color: #fff;
