@@ -60,7 +60,7 @@
   div.content {margin-left: 0;}
 }
 /*Alanah Code Ends*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 400px) {
   ul.sidenav li a {
     text-align: center;
     float: none;
