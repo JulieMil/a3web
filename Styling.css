@@ -46,7 +46,7 @@
 /*Alanah Code Starts Here*/
 /*Taken from W3 school https://www.w3schools.com/css/tryit.asp?filename=trycss_navbar_vertical_responsive*/
 @media screen and (max-width: 50 %) {
-  div.topnav a {
+  div.topnav li a {
     text-align: center;
     float: none;
   }
