@@ -8,7 +8,7 @@ function NavbarHome() {
     }
 }
 
-function NavbarSecond() {
+function NavbarSec() {
     var x = document.getElementById("SecTopNav");
     if (x.className === "topnav") {
          x.className += " responsive";
