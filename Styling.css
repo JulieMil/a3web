@@ -44,11 +44,10 @@
     }
 /* Laura's Code Ends Here */
 /*Alanah code starts*/
-
 	.topnav .icon {
 		display: none;
   	}
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
 	.topnav a:not(:first-child) {display: none;}
 	.topnav a.icon {
 	  float: right;
@@ -56,7 +55,7 @@
 	}
   }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 800px) {
 	.topnav.responsive {position: relative;}
 	.topnav.responsive a.icon {
 	  position: absolute;
