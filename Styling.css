@@ -53,9 +53,7 @@
 	  float: right;
 	  display: block;
 	}
-  }
 
-@media screen and (max-width: 800px) {
 	.topnav.responsive {position: relative;}
 	.topnav.responsive a.icon {
 	  position: absolute;
