@@ -100,8 +100,9 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   background-color: #bccad6; /* Add a dark-grey background on hover */
 }
 
-@media screen and (max-width: 800px) {
-	.topnav a:not(:first-child) {display: none;}
+@media screen and (max-width: 962px) {   /* formating that will apply to tablets or smaller - Breaks sourced from https://www.optimonk.com/above-the-fold/ - Julie */
+	/* Alanah's code starts here */
+  .topnav a:not(:first-child) {display: none;}
 	.topnav a.icon {
 	  float: right;
 	  display: block;
@@ -118,4 +119,9 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	  display: block;
 	  text-align: left;
 	}
+  /* Alanah's code ends here */
+}
+
+@media screen and (max-width: 375px){    /*Formating that applys to Cellphones - Julie */
+
 }
