@@ -12,27 +12,16 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 
-    <script>
-        function NavbarButton() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-    }
-
-    </script>
     <body>
         <!-- Laura's code starts here -->
-        <div class="topnav">
+        <div class="topnav" id="SecTopNav">
           <a href="index.html">Home</a>
           <a class="active" href="secondpage.html">Meet The Team</a>
           <a href="thirdpage.html">What We Offer</a>
           <a href="fourthpage.html">Testimonials</a>
           <a href="fifthpage.html">Contact Us</a>
           <!--Alanah's code insert start -->
-          <a href="javascript:void(0);" class="icon" onclick="NavbarButton()">
+          <a href="javascript:void(0);" class="icon" onclick="NavbarSec()">
             <c class="fa fa-bars"></c></a>
           <!--Alanah's code insert ends-->
         </div>
