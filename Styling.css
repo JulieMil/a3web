@@ -43,7 +43,19 @@
   background-color: #667292;
 }
 /* Laura's Code Ends Here */
+/*Alanah code starts*/
+.topnav .icon{
+	display:none;
+}
 
+@media screen and (max-width: 600px) {
+	.topnav a:not(:first-child) {display: none;}
+	.topnav a.icon {
+	  float: right;
+	  display: block;
+	}
+  }
+/*Alanah code ends*/
 /* Jordan's Code Starts Here */
 /* page sub headings*/
 h3 {color: #fff;
