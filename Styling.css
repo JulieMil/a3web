@@ -50,7 +50,7 @@
 /* Scrolling gallery learnt from: https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp */
 div.scrollimagegallery {
   background-color: #8d9db6;
-   padding: 20px;
+   padding: 0px;
   overflow: auto;
   white-space: nowrap;
 }
