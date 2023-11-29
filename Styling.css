@@ -47,7 +47,6 @@
 	.topnav .icon {
 		display: none;
   	}
-
 /*Alanah code ends*/
 /* Jordan's Code Starts Here */
 /* page sub headings*/
@@ -99,7 +98,33 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 #topbutton:hover {
   background-color: #bccad6; /* Add a dark-grey background on hover */
 }
+/*accodion button inpired from https://www.w3schools.com/howto/howto_js_accordion.asp*/
+.accordion {
+  background-color: #667292;
+  color: #f1e3dd;
+  text-align:left;
+  cursor: pointer;
+  padding: 20px;
+  padding-left: 40px;
+  width: 100%;
+  transition: 0.4s;
+  margin: 5px;
+}
 
+.active, .accordion:hover {
+  background-color: #8d9db6;
+  
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: #bccad6;
+  display: none;
+  overflow: hidden;
+  margin: 5px;
+  transition:max-height 0.2 ease-out;
+}
+/*Alanah code ends here*/
 @media screen and (max-width: 962px) {   /* formating that will apply to tablets or smaller - Breaks sourced from https://www.optimonk.com/above-the-fold/ - Julie */
 	/* Alanah's code starts here */
   .topnav a:not(:first-child) {display: none;}

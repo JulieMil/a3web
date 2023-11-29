@@ -8,12 +8,13 @@
         <title> Gr1 HOME </title>
         <!-- Julie's Code ends here -->
         <!----Alanah's code starts here-->
-        <!---icon for navbar button-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!--For icons-->
         <!--Link to javascript-->
         <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/877d2cecdc.js" crossorigin="anonymous"></script> <!--For icons-->
         <!---Alanah's code ends-->
     </head>
+    <!--<script src="https://kit.fontawesome.com/877d2cecdc.js" crossorigin="anonymous"></script>-->
     <body>
         <!-- Laura's code starts here -->
         <div class="topnav" id="FifthTopNav">
@@ -40,6 +41,21 @@
     		<h3> Contact Us </h3>
     		<hr>
     		<h3> Customer Reviews </h3>
+            <!----Alanah's code insert start-->
+            <!---Accordion button inpired from https://www.w3schools.com/howto/howto_js_accordion.asp -->
+            <button class="accordion"><i class ='fas fa-star'></i><i class ='far fa-star'></i><i class='far fa-star'></i><i class ='far fa-star'></i><i class ='far fa-star'></i></button>
+            <div class="panel">
+                <p>Enter in review, can change star rating: fas fa-star is solid star, far fa-star is empty star, far fa-star-half is half a star</p>
+            </div>
+            <button class="accordion"><i class ='fas fa-star'></i><i class ='far fa-star'></i><i class='far fa-star'></i><i class ='far fa-star'></i><i class ='far fa-star'></i></button>
+            <div class="panel">
+                <p>Lorem ipsum...</p>
+            </div>
+            <button class="accordion"><i class ='fas fa-star'></i><i class ='far fa-star'></i><i class='far fa-star'></i><i class ='far fa-star'></i><i class ='far fa-star'></i></button>
+            <div class="panel">
+                <p>Lorem ipsum...</p>
+            </div>
+            <!--Alanah's code insert ends here-->
     		<hr>
     	<!-- Jordan's code ends here -->
         
@@ -64,5 +80,26 @@
         </p>
     </footer>
     <!-------------- ***End Owner : Alison Cooke*** ------------->
-   <!-------ALANAH--------->
+   <!-------Alanah Code Starts-------->
+   <!---Code for accordion button, wont run if external. Inpired from https://www.w3schools.com/howto/howto_js_accordion.asp--->
+   <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+    
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+        panel.style.display = "none";
+        } else {
+        panel.style.display = "block";
+        }
+    });
+    }
+</script>
 </html>
