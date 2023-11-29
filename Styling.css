@@ -138,7 +138,7 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   background-color: #bccad6; /* Add a dark-grey background on hover */
 }
 /*accodion button inpired from https://www.w3schools.com/howto/howto_js_accordion.asp*/
-.accordion {
+.accordion{
   background-color: #667292;
   color: #f1e3dd;
   text-align:left;
