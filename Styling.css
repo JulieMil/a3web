@@ -12,6 +12,7 @@
     h1 {text-align: center; color: #fff}
     h2 {text-align: center; font-family: "Bodoni MT"; color: #fff}
     body {background-color: #8d9db6;}
+    p {color: #fff}
 
 /* id selectors */
     #heading { background-color: #667292;padding-top: 32px;
@@ -95,7 +96,18 @@ h3 {color: #fff;
 	text-align: center;
 }
 /* Jordan's Code Ends Here */
+/* Julie's Code Starts Here */
 
+.OSMap {width:100%; background-image: linear-gradient(to bottom right, red, yellow); 
+  max-height: 500px }
+.OSMap h3 {padding:30px  30px  20px;
+}
+.OSMap p {padding:  0px  30px  20px}
+.mapINFO {width: 50%; float: right;}
+
+#staticMap {width: 50%; float: left;}
+    
+/* Julie's Code Ends Here */  
 /**********************
 * Owner : Alison Cooke
 * Date : Nov 21, 2023
@@ -104,7 +116,8 @@ h3 {color: #fff;
 footer {text-align: center;
 	padding: 10px; 
 	background-color: #667292;
-	color: white;
+	color: white; 
+  clear: both;
 	}
 p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	}
@@ -184,8 +197,26 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	  text-align: left;
 	}
   /* Alanah's code ends here */
+
+/* Julie's Code Starts Here */
+    .OSMap {width:100% }
+    .OSMap h3 {padding:30px  30px  20px;
+    }
+    .OSMap p {padding:  0px  30px  20px}
+
+    .staticMap {width: 600px}
+/* Julie's Code Ends Here */ 
 }
 
 @media screen and (max-width: 375px){    /*Formating that applys to Cellphones - Julie */
+
+/* Julie's Code Starts Here */
+    .OSMap {width:100% }
+    .OSMap h3 {padding:30px  30px  20px;
+    }
+    .OSMap p {padding:  0px  30px  20px}
+
+    .staticMap {width: 100%}
+/* Julie's Code Ends Here */ 
 
 }
