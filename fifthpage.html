@@ -24,6 +24,7 @@
           <a href="fourthpage.html">Testimonials</a>
           <a class="active" href="fifthpage.html">Contact Us</a>
           <!--Alanah's code insert start -->
+          <!--Inpired from:https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
           <a href="javascript:void(0);" class="icon" onclick="Navbar()">
             <c class="fa fa-bars"></c></a>
     <!--Alanah's code insert ends-->
@@ -43,8 +44,8 @@
     		<h3> Customer Reviews </h3>
             <!----Alanah's code insert start-->
             <!---Accordion button inpired from https://www.w3schools.com/howto/howto_js_accordion.asp -->
-            <button class="accordion"><i class ='fas fa-star'></i><i class ='far fa-star'></i><i class='far fa-star'></i><i class ='far fa-star'></i><i class ='far fa-star'></i></button>
-            <div class="panel">
+            <button onclick="accordion(rev1)" class="accordion"><i class ='fas fa-star'></i><i class ='far fa-star'></i><i class='far fa-star'></i><i class ='far fa-star'></i><i class ='far fa-star'></i></button>
+            <div id="rev1" class="panel">
                 <p>Enter in review, can change star rating: fas fa-star is solid star, far fa-star is empty star, far fa-star-half is half a star</p>
             </div>
             <button class="accordion"><i class ='fas fa-star'></i><i class ='far fa-star'></i><i class='far fa-star'></i><i class ='far fa-star'></i><i class ='far fa-star'></i></button>
@@ -114,5 +115,6 @@
         }
     });
     }
-</script>
+    </script>
+    <!---Alanah Code ends--->
 </html>
