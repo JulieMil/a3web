@@ -233,7 +233,7 @@ section{
 
     .staticMap {width: 100%}
 /* Julie's Code Ends Here */ 
-img {
+* {
   max-width: 100%;
   height: auto;
 }
