@@ -233,7 +233,6 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	
 	#databaseIMAGE{
 		max-width:100%;
-		max-height: auto;
 		display: block;
 		float: none;
 		margin: auto;
