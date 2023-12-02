@@ -164,7 +164,7 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   padding: 20px;
   width: 100%;
   transition: 0.4s;
-  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .active, .accordion:hover {
