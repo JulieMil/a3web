@@ -223,11 +223,9 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	  text-align: left;
 	}
 	
- 	*Formate for the database services for small screens*/
+ 	/*Formate for the database services for small screens*/
 	#databaseSECTION{
-		width:100%;
-		display: block;
-		align-items: center;
+		display:block;
 		max-height:1500px; 
 	}
 	
