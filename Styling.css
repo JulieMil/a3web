@@ -227,24 +227,24 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     		float:none;
     		margin:auto;
 	}
- 	*Formate for the database servies for small screens*/
+ 	*Formate for the database services for small screens*/
 	#databaseSECTION{
-	width:100%;
-	display:block;
-	align-items:center;
-	max-height:1500px; 
+		width:100%;
+		display: block;
+		align-items: center;
+		max-height:1500px; 
 	}
 	
 	#databaseIMAGE{
 		max-width:100%;
-		max-height:auto;
-		display:block;
-		float:none;
-		margin:auto;
+		max-height: auto;
+		display: block;
+		float: none;
+		margin: auto;
 	}
  
 	#databaseINFO{
-		float:none;	
+		float: none;	
 	}
 
   /* Alanah's code ends here */
