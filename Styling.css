@@ -228,7 +228,25 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     		float:none;
     		margin:auto;
 	}
+ 	*Formate for the database servies for small screens*/
+	#databaseSECTION{
+	width:100%;
+	display:block;
+	align-items:center;
+	max-height:1500px; 
+	}
+	
+	#databaseIMAGE{
+		max-width:100%;
+		max-height:auto;
+		display:block;
+		float:none;
+		margin:auto;
+	}
  
+	#databaseINFO{
+		float:none;	
+	}
   /* Alanah's code ends here */
 /* Julie's Code Starts Here 
 ** Date: December 1, 2023*/ 
