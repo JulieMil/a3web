@@ -246,13 +246,14 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	#databaseINFO{
 		float:none;	
 	}
+}
   /* Alanah's code ends here */
 /* Julie's Code Starts Here 
 ** Date: December 1, 2023*/ 
     .staticMap {max-width: 100%; padding-left: 5px }
 	/* Julie's Code Ends Here */ 
 }
-}
+
 @media screen and (max-width: 600px){    /*Formating that applys to Cellphones - Breaks sourced from https://www.optimonk.com/above-the-fold/ Julie */
 
 /* Julie's Code Starts Here 
