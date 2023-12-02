@@ -244,6 +244,7 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	}
  
 	#databaseINFO{
+		min-width:30%;
 		float: none;	
 	}
 
