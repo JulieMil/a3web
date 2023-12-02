@@ -176,6 +176,14 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   margin: 5px;
   transition:max-height 0.2 ease-out;
 }
+
+.right{
+ float:right;
+}
+
+section{
+  min-height:500px;
+}
 /*Alanah code ends here*/
 @media screen and (max-width: 962px) {   /* formating that will apply to tablets or smaller - Breaks sourced from https://www.optimonk.com/above-the-fold/ - Julie */
 	/* Alanah's code starts here */
@@ -196,6 +204,12 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	  display: block;
 	  text-align: left;
 	}
+	.right{
+    		display:block;
+    		float:none;
+    		margin:auto;
+	}
+ 
   /* Alanah's code ends here */
 
 /* Julie's Code Starts Here */
