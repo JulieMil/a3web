@@ -180,6 +180,7 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   margin: 5px;
   transition:max-height 0.2 ease-out;
 }
+
 /*Formatting for dataservice */
 #databaseSECTION{
 	width:100%;
@@ -221,12 +222,7 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	  display: block;
 	  text-align: left;
 	}
-	/*over-writing the full-screen float to center*/
-	.right{
-    		display:block;
-    		float:none;
-    		margin:auto;
-	}
+	
  	*Formate for the database services for small screens*/
 	#databaseSECTION{
 		width:100%;
