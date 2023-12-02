@@ -155,7 +155,7 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 #topbutton:hover {
   background-color: #bccad6; /* Add a dark-grey background on hover */
 }
-/*accordion button inpired from https://www.w3schools.com/howto/howto_js_accordion.asp*/
+/*accordion button inspired from https://www.w3schools.com/howto/howto_js_accordion.asp*/
 .accordion{
   background-color: #667292;
   color: #f1e3dd;
