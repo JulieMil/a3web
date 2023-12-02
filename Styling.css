@@ -176,11 +176,11 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   margin: 5px;
   transition:max-height 0.2 ease-out;
 }
-
+/*For images to sit on the right side of page*/
 .right{
  float:right;
 }
-
+/*Stop sections from overlapping each other*/
 section{
   min-height:500px;
 }
@@ -204,6 +204,7 @@ section{
 	  display: block;
 	  text-align: left;
 	}
+	/*over-writing the full-screen float to center*/
 	.right{
     		display:block;
     		float:none;
