@@ -84,6 +84,30 @@ div.desc {
 ::-webkit-scrollbar-thumb {
   background: #667292; 
 }
+
+/* Table styling learned from: https://www.w3schools.com/css/css_table.asp */
+#services {
+  font-family: Century Gothic;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#services td, #services th {
+  border: 5px solid #f1e3dd;
+  padding: 8px;
+  color: white;
+}
+
+#services tr:nth-child(even){background-color: #bccad6;}
+#services tr:nth-child(odd){background-color: #667292;}
+
+#services th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  text-decoration: underline;
+  color: #f1e3dd;
+}
 /* End Owner : Laura Cobham*/
 
 /*Alanah code starts*/
