@@ -50,6 +50,37 @@
     .topnav a.active {
       background-color: #667292;
     }
+/*Dropdown navbar*/
+ul { 
+  margin: 0;
+}
+li a:hover, .dropdown:hover {
+  background-color: #8d9db6;
+}
+li.dropdown {
+  display: inline;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  background-color: #667292;
+}
+.dropdown-content a {
+  color: #f1e3dd;
+  padding: 15px 30px;
+  text-decoration: none;
+  display: inline-block;
+  position: bottom;
+  background-color: #8d9db6;
+}
+.dropdown-content a:hover {
+	background-color: #667292;
+	position: bottom;
+	display: inline;
+}
+.dropdown:hover .dropdown-content {
+  display: inline;
+}
 /* Scrolling gallery learnt from: https://www.w3schools.com/howto/howto_css_image_gallery_scroll.asp */
 div.scrollimagegallery {
   background-color: #8d9db6;
