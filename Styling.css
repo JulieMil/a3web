@@ -116,28 +116,32 @@ h3 {color: #fff;
 
     
 /* Julie's Code Ends Here */
+
+
+
 /**********************
 * Owner : Alison Cooke
 * Date : Nov 21, 2023
-* From : https://www.w3schools.com/colors/colors_palettes.asp
+* From : https://www.w3schools.com/css/default.asp
 ***********************/
-footer {text-align: center;
-	padding: 10px; 
+footer {text-align: center;/* aligns text to the center of the page */
+	padding: 10px; /* adding padding to the content bock */
 	background-color: #667292;
 	color: white; 
-  clear: both;
+  clear: both;/* clears both sides of the block from floating blocks */
 	}
 p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
-	}
+	}/* the font family fot the webpagecetury gothic becasue it is sans-serif and easily distinguished */
 
-.resumes {color: #f1e3dd;
-  font-size:25px;
+.resumes {color: #f1e3dd; /* style for the headers on the page separate style from other headers (h3) */
+  font-size:25px;/* larger font size */
 	letter-spacing: 1px;
 	font-weight: normal;
-	text-align: center;}
+	text-align: center; /* centered on the page */
+}
 
 
-  .res:link, .res:visited {
+  .res:link, .res:visited { /* setting the buttons for the resume links so they change color when they have been clicked and when the mouse hoovers over them */
     background-color: #f1e3dd;
     color: #667292;
     border: 2px solid #667292;
@@ -149,28 +153,30 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
     
   }
   
-  .res:hover, .res:active {
+  .res:hover, .res:active { /* mouse hovering changes the color of both the background and the text */
     background-color: #667292;
     color: #f1e3dd;
   }
-  .resp {font-size: 20px;
+  .resp {font-size: 20px; /* class for the paragraphs style for the resume paeg separated from the rest of the font styles */
  text-align: center;
-padding-left: 90px;
-padding-right: 90px;
+padding-left: 100px; /* added padding to better suit the style of the page */
+padding-right: 100px;
 }
 .resimg {
   display: block;
-  margin-left:auto;
+  margin-left:auto;/* making the margins in the left and right of the image auto fit to the page */
   margin-right:auto;
   width: 200px;
   height: 191px;
-  outline-style: groove;
+  outline-style: groove; /* added outline to image to better indicate there is a link attached to the image */
   outline-width: thick;
-  outline-offset:10px;
+  outline-offset:10px; /* making outline more evident to draw attention to the image and the text bellow */
   outline-color: #ffffff;
 }
+
+
 .imagecap {text-align:center;
-color: #f1e3dd;
+color: #f1e3dd; /* added an image caption to indicate the user can click on the image */
 font-size:10 px;
 font-weight: bold;
 font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
@@ -178,6 +184,8 @@ font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 
 
 /* End Owner : Alison Cooke*/
+
+
 
 /*Alanah Code Starts*/
 /*Back to top button, inspired from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
