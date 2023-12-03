@@ -98,7 +98,7 @@ div.desc {
   color: white;
 }
 
-#services tr:nth-child(even){background-color: #bccad6;}
+#services tr:nth-child(even){background-color: #8d9db6;}
 #services tr:nth-child(odd){background-color: #667292;}
 
 #services th {
