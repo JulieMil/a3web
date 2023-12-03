@@ -108,6 +108,23 @@ div.desc {
   text-decoration: underline;
   color: #f1e3dd;
 }
+/*Applications page, styling web section (image and text)*/
+#webSECTION{
+	width:100%;
+	display:flex;
+	align-items:center;
+}
+
+#webINFO{
+	float:right;
+	margin-left: 20px;
+}
+
+#webIMAGE{
+	float:left;
+	max-height: 400px;
+	max-width: 400px;
+}
 /* End Owner : Laura Cobham*/
 
 /*Alanah code starts*/
