@@ -225,6 +225,16 @@ input[type=text], textarea {
   letter-spacing: 1px;
 }
 
+.submitbutton {
+	padding: 8px;
+	border: 2px solid #6f7c80;
+}
+
+.submitbutton:hover {
+	background-color: #6f7c80;
+	color: #8d9db6;
+}
+
 /* Jordan's Code Ends Here */
 
 /***************
