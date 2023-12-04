@@ -424,7 +424,7 @@ font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 
 /*Alanah code ends here*/
 @media screen and (max-width: 962px) {   /* formating that will apply to tablets or smaller - Breaks sourced from https://www.optimonk.com/above-the-fold/ - Julie */
-	/* Alanah's code starts here */
+	/* Alanah's code starts here - responsive dropdown nav bar from https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
   .navbar a:not(:first-child), .dropdown .dropbtn {display: none;}
 	.navbar a.icon {
 	  float: right;
