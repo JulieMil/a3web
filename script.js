@@ -28,3 +28,15 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   }
+
+//Code for review button accordions style 
+//Done on Dec 3,2023
+//From https://www.w3schools.com/w3css/w3css_accordions.asp 
+function Accordion(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("panel-show") == -1) {
+    x.className += " panel-show";
+  } else { 
+    x.className = x.className.replace("panel-show", "");
+  }
+}
