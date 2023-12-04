@@ -227,12 +227,12 @@ input[type=text], textarea {
 
 .submitbutton {
 	padding: 8px;
-	border: 2px solid #6f7c80;
+	border: 2px solid #667292;
 }
 
 .submitbutton:hover {
-	background-color: #6f7c80;
-	color: #8d9db6;
+	background-color: #667292;
+	color: #bccad6;
 }
 
 /* Jordan's Code Ends Here */
