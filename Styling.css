@@ -29,8 +29,8 @@
 ***********************/
 .navbar {
   background-color: #8d9db6;
-  overflow: auto;
   width: 100%;
+  position: fixed;
 }
 .navbar a {
   float: left;
