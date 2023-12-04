@@ -217,10 +217,12 @@ input[type=text], textarea {
 #allreasons {
 	margin-top: 6px;
 	margin-bottom: 6px;
+  font-size: 14px;
 }
 
 #submittext {
   color: black;
+  letter-spacing: 1px;
 }
 
 /* Jordan's Code Ends Here */
