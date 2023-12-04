@@ -296,11 +296,13 @@ font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   background-color: #8d9db6;
   
 }
-
-.panel {
+.panel-hide {
+  display: none;
+}
+.panel-show {
   padding: 0 18px;
   background-color: #bccad6;
-  display: none;
+  display: block;
   overflow: hidden;
   margin: 5px;
   transition:max-height 0.2 ease-out;
