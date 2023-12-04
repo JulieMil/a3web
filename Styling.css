@@ -320,6 +320,19 @@ font-weight: bold;
 font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
+.contactbut:link, .contactbut:visited {
+  background-color: #667292;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.contactbut:hover, .contactbut:active {
+  background-color: #f1e3dd;
+  color: black;
+}
 
 /* End Owner : Alison Cooke*/
 
