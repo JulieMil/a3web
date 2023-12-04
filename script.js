@@ -2,10 +2,10 @@
 //Script for navbar when collasped, inprired from: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp
 function Navbar() {
     var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
+    if (x.className === "navbar") {
         x.className += " responsive";
     } else {
-        x.className === "topnav"
+        x.className === "navbar"
     }
 }
 
