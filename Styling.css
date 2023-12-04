@@ -219,6 +219,10 @@ input[type=text], textarea {
 	margin-bottom: 6px;
 }
 
+#submittext {
+  color: black;
+}
+
 /* Jordan's Code Ends Here */
 
 /***************
