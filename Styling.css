@@ -53,8 +53,7 @@ background-color: #383f52;
   outline: none;
   color: #f1e3dd;
   padding: 15px 30px;
-  background-color: inherit;
-  font-family: inherit;
+  background-color: #667292;
   margin: 0;
 }
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -72,6 +71,7 @@ background-color: #383f52;
   text-decoration: none;
   display: block;
   text-align: left;
+  background-color: #383f52;
 }
 .dropdown-content a:hover {
   background-color: #bccad6;
