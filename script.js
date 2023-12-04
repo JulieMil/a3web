@@ -12,7 +12,7 @@ function Navbar() {
 //Functions for back to top buttom, inspried from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
 
 
-let mybutton = document.getElementById("topbuton");
+let mybutton = document.getElementById("topbutton");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
