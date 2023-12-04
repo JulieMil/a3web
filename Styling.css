@@ -38,6 +38,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  background-color: #8d9db6;
 }
 .navbar a.active {
 background-color: #667292;
@@ -47,7 +48,7 @@ background-color: #667292;
   overflow: hidden;
 }
 .dropdown .dropbtn {
-  font-size: 15px;  
+  font-size: 20px;  
   border: none;
   outline: none;
   color: #f1e3dd;
@@ -57,7 +58,7 @@ background-color: #667292;
   margin: 0;
 }
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #bccad6;
+  background-color: #667292;
 }
 .dropdown-content {
   display: none;
