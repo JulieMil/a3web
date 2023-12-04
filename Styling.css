@@ -28,9 +28,7 @@
 * From : https://www.w3schools.com/colors/colors_palettes.asp
 ***********************/
 .navbar {
-  overflow: hidden;
   background-color: #8d9db6;
-  width: 100%
 }
 .navbar a {
   float: left;
