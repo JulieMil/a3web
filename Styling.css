@@ -29,8 +29,6 @@
 ***********************/
 .navbar {
   background-color: #8d9db6;
-  width: 100%;
-  position: fixed;
 }
 .navbar a {
   float: left;
