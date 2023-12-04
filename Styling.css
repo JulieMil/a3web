@@ -29,6 +29,7 @@
 ***********************/
 .navbar {
   background-color: #8d9db6;
+  overflow: auto;
 }
 .navbar a {
   float: left;
