@@ -39,6 +39,7 @@
   text-decoration: none;
   padding: 15px 30px;
   background-color: #667292;
+  width: 100%;
 }
 .navbar a.active {
 background-color: #383f52;
