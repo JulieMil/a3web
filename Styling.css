@@ -57,12 +57,12 @@ background-color: #667292;
   margin: 0;
 }
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: #8d9db6;
+  background-color: #bccad6;
 }
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #667292;
+  background-color: #8d9db6;
 }
 .dropdown-content a {
   float: none;
@@ -73,7 +73,7 @@ background-color: #667292;
   text-align: left;
 }
 .dropdown-content a:hover {
-  background-color: #667292;
+  background-color: #bccad6;
 }
 .dropdown:hover .dropdown-content {
   display: block;
