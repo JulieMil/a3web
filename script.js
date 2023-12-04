@@ -40,3 +40,10 @@ function Accordion(id) {
     x.className = x.className.replace("panel-show", "");
   }
 }
+
+//Jordan's code starts here
+//submit alert function for contact us form
+// https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert
+function submitalert() {
+  alert("Your message has been submitted!");
+}
