@@ -168,6 +168,57 @@ h3 {color: #fff;
 	font-weight: normal;
 	text-align: center;
 }
+
+/* ideas for form css from https://www.w3schools.com/howto/howto_css_contact_form.asp */
+
+/* displaying labels as a block instead of inline */
+label {
+	display: block;
+}
+
+/* normal form width */
+form {
+	width: 40%;
+}
+
+/* input changes for when type is text and for textarea element */
+input[type=text], textarea {
+	display: block;
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-sizing: border-box;
+	margin-top: 2px;
+	margin-bottom: 10px;
+	resize: vertical;
+}
+
+/* div id for the form box to left-align text and change display type, border, and content justification */
+#formbox {
+	border: 1px;
+	text-align: left;
+	display: flex;
+	justify-content: center;
+}
+
+/* id for overall div of entire form including button */
+#contactform {
+	text-align: center;
+	justify-content: center;
+	border-radius: 8px;
+	background-color: #e8e9eb;
+	display: block;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+/* id for div surrounding radio type input to add space above and below options */
+#allreasons {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
 /* Jordan's Code Ends Here */
 
 /***************
