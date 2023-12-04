@@ -442,7 +442,13 @@ font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	  display: block;
 	  text-align: left;
 	}
-	
+	.navbar.responsive .dropdown {float: none;}
+	.navbar.responsive .dropdown-content {position: relative;}
+	.navbar.responsive .dropdown .dropbtn {
+	    display: block;
+	    width: 100%;
+	    text-align: left;
+	}
  	/*Formate for the database services for small screens*/
 	#databaseSECTION{
 		display:block;
