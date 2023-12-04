@@ -207,7 +207,7 @@ input[type=text], textarea {
 	text-align: center;
 	justify-content: center;
 	border-radius: 8px;
-	background-color: #e8e9eb;
+	background-color: #f1e3dd;
 	display: block;
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -232,7 +232,7 @@ input[type=text], textarea {
 
 .submitbutton:hover {
 	background-color: #667292;
-	color: #bccad6;
+	color: #f1e3dd;
 }
 
 /* Jordan's Code Ends Here */
