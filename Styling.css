@@ -126,8 +126,9 @@ div.desc {
 }
 /* Styling every other row */
 #services tr:nth-child(even){
-  background-color: #8d9db6;}
+  background-color: #8d9db6;
   font-size: 15px;
+}
 #services tr:nth-child(odd){
   background-color: #667292;
   font-size: 15px;
