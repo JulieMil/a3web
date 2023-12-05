@@ -373,9 +373,15 @@ font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
-
+/*class to make button appear*/
+.top-show{
+  display:block;
+}
+.top-hide{
+  display:none;
+}
 #topbutton:hover {
-  background-color: #bccad6; /* Add a dark-grey background on hover */
+  background-color: #bccad6; 
 }
 /*accordion button inspired from https://www.w3schools.com/howto/howto_js_accordion.asp*/
 .accordion{
