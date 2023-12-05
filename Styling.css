@@ -417,7 +417,6 @@ font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   display: block;
   overflow: hidden;
   margin: 5px;
-  transition:max-height 0.2 ease-out;
 }
 
 /*Formatting for dataservice */
