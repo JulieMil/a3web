@@ -131,6 +131,7 @@ div.desc {
   text-align: left;
   text-decoration: underline;
   color: #f1e3dd;
+  font-size: 15px;
 }
 /*Applications page, styling web section (image and text), making responsive*/
 #webSECTION{
@@ -150,12 +151,6 @@ div.desc {
 	display: block;
 	float: none;
 	margin: auto;
-}
-.tableSECTION{
-	background-color: #383f52;
-	align-items:center;
-	display:block;
-	max-height:1500px;
 }
 /* End Owner : Laura Cobham*/
 
