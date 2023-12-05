@@ -265,7 +265,8 @@ input[type=text], textarea {
 * From : https://www.w3schools.com/css/default.asp
 ***********************/
 footer {text-align: center;/* aligns text to the center of the page */
-	padding: 10px; /* adding padding to the content bock */
+	font-size: 14pt;
+   padding: 10px; /* adding padding to the content bock */
 	background-color: #667292;
 	color: white; 
   clear: both;/* clears both sides of the block from floating blocks */
@@ -281,24 +282,24 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 
-  .res:link, .res:visited { /* setting the buttons for the resume links so they change color when they have been clicked and when the mouse hoovers over them */
-    background-color: #f1e3dd;
-    color: #667292;
-    border: 2px solid #667292;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    
-    
-  }
+.res:link, .res:visited { /* setting the buttons for the resume links so they change color when they have been clicked and when the mouse hoovers over them */
+  background-color: #f1e3dd;
+  color: #667292;
+  border: 2px solid #667292;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
   
-  .res:hover, .res:active { /* mouse hovering changes the color of both the background and the text */
-    background-color: #667292;
-    color: #f1e3dd;
-  }
-  .resp {font-size: 20px; /* class for the paragraphs style for the resume paeg separated from the rest of the font styles */
- text-align: center;
+  
+}
+  
+.res:hover, .res:active { /* mouse hovering changes the color of both the background and the text */
+  background-color: #667292;
+  color: #f1e3dd;
+}
+.resp {font-size: 20px; /* class for the paragraphs style for the resume paeg separated from the rest of the font styles */
+text-align: center;
 padding-left: 100px; /* added padding to better suit the style of the page */
 padding-right: 100px;
 }
