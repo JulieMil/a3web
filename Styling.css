@@ -134,11 +134,10 @@ div.desc {
 }
 /*Applications page, styling web section (image and text), making responsive*/
 #webSECTION{
-	width:100%;
 	align-items:center;
 	display:block;
 	max-height:1500px;
-	background-color: #f1e3dd;
+	background-color: #667292;
 }
 
 #webINFO{
@@ -149,7 +148,7 @@ div.desc {
 #webIMAGE{
 	max-width:100%;
 	display: block;
-	float: left;
+	float: none;
 	margin: auto;
 }
 /* End Owner : Laura Cobham*/
