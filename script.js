@@ -11,13 +11,24 @@ function Navbar() {
 
 //Functions for back to top buttom, inspried from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp
 
-
-
-
 function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   }
+
+//Code for make top button appear once scoll 
+//Done on Dec 4,2023
+//Code inspired from: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onscroll2
+
+window.onscroll = function() {scrollTopButton()};
+
+function scrollTopButton() {
+  if (document.documentElement.scrollTop > 10) {
+    document.getElementById("topbutton").className = "top-show";
+  } else {
+    document.getElementById("topbutton").className = "top-hide";
+  }
+}
 
 //Code for review button accordions style 
 //Done on Dec 3,2023
