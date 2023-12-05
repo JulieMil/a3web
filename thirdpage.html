@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--https://www.w3schools.com/html/html_responsive.asp-->
     <!--Starting to try and figure out responsive websites-->
     <head>
-        <meta charaet=utf-8>
+        <meta charset=utf-8>
         <link rel="stylesheet" href="Styling.css"> <!--Link to stylesheet-->
         <title> OS-Cart Experience </title>
         <!-- Julie's Code ends here -->
@@ -20,21 +20,26 @@
         * Date : Nov 28, 2023
         * From : https://www.w3schools.com/colors/colors_palettes.asp
          --------->
-        <div class="topnav" id="myTopnav">
-          <a href="index.html">Home</a>
-          <a href="secondpage.html">Meet The Team</a>
-          <a class="active" href="thirdpage.html">What We Offer</a>
-          <a href="fourthpage.html">Testimonials</a>
-          <a href="fifthpage.html">Contact Us</a>
-        <!-- End Owner : Laura Cobham-->
-		
-        <!--Alanah's code insert start -->
+        <div class="navbar" id="myTopnav">
+	  <a href="index.html">Home</a>
+	  <a href="secondpage.html">Meet The Team</a>
+	  <div class="dropdown">
+	    <button class="dropbtn">What We Offer
+	      <i class="fa fa-caret-down"></i>
+	    </button>
+	    <div class="dropdown-content">
+	      <a class="active" href="thirdpage.html">Cartography</a>
+	      <a href="fourthpage.html">Applications</a>
+	    </div>
+	  </div> 
+	  <a href="fifthpage.html">Contact Us</a>
+	<!--Alanah's code insert start -->
         <!--Inpired from:https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
-          <a href="javascript:void(0);" class="icon" onclick="Navbar()">
-            <c class="fa fa-bars"></c></a>
+        <a href="javascript:void(0);" class="icon" onclick="Navbar()">
+        <c class="fa fa-bars"></c></a>
         <!--Alanah's code insert ends-->
-        </div>
-
+	</div>
+	<!-- Laura's code end here --> 
         <!--Julie's code starts here -->
         <div id=heading> 
             <h1>Cartography</h1>
@@ -42,26 +47,25 @@
         </div>
         <!-- Julie's Code ends here -->
         
-        <!-- Jordan's code starts here -->
-    		<h3> Team Members </h3>
+        <!--  Alisons code starts here -->
+    		<h3 class="carthead"> Spatial Analysis </h3>
     		<hr>
-    		<h3> Services Offered </h3>
-    		<hr>
-    		<h3> Previous Work </h3>
-	<!---------
-        * Owner : Laura Cobham
-        * Date : Nov 28, 2023
-         --------->
-        <div class="scrollimagegallery">
-		<img src="imagegallery/LauraGallery2.jpg" alt="Qualitative greyscale map of Burlington, ON made by Laura Cobham">
-		<img src="imagegallery/AlanahGallery2.png" alt="Survey plan from Kawartha Lakes made by Alanah Reveler">
-		<img src="imagegallery/JulieGallery2.jpg" alt="Qualitative colour map of Thunder Bay, ON made by Julie Milne">
-	<div class="desc">Our team has experience creating projects in softwares like ArcGIS Pro, VisualStudioCode, AutoCAD 3D 2024, PCI Catalyst, Microsoft Access, and more!</div>
-        </div>
-        <!-- End Owner : Laura Cobham-->
-    		<hr>
-    	<!-- Jordan's code ends here -->
-
+       
+      
+    		<h3 class="carthead"> Geovisualization </h3> 
+            <div class="cartsection">
+            <img class= "cartimg" src= "GVITF2GreyscaleMap.jpg" alt="example of Geovisualization">
+            <div class="carttext">Geovisualization is the art of symbolizing and classifying map elements. Our team has been trained rigorously in 
+                geovisialization and have a complete understanding of the program ArcGIS and understand the use of symbology to create a visual 
+                documentation of map elements </div>
+            </div>
+            <div id="cartbreak"></div>
+	<!---Alanah's Code Starts-->
+     	<!--Back to top button, inspired from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+     		<div>
+       		 <button onclick="topFunction()" id="topbutton" class="top-hide" title="Top">Top</button>
+     		</div> 
+     	<!--Alanah Code ends--> 
     </body>
     <!-----------
     - Owner : Alison Cooke
@@ -76,8 +80,8 @@
         Address: 456 Sesame Street, Hairy Hills AB,T0B 1S0
         </p>
         <p> 
-        contact us here
-        <a href="https://www.w3schools.com/html/html_links.asp" > link to come
+        
+        <a class= "contactbut"href="https://areveler.github.io/a3web/fifthpage.html" > Contact us here
         </a>
         </p>
     </footer>

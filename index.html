@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--https://www.w3schools.com/html/html_responsive.asp-->
     <!--Starting to try and figure out responsive websites-->
     <head>
-        <meta charaet=utf-8>
+        <meta charset=utf-8>
         <link rel="stylesheet" href="Styling.css"> <!--Link to stylesheet-->
         <title> Odder Solutions - Home </title>
         <!-- Julie's Code ends here -->
@@ -16,21 +16,30 @@
     </head>
 
     <body>
-        <!-- Laura's code starts here TEST-->
-        <div class="topnav" id="myTopnav"> 
-          <a class="active" href="index.html">Home</a>
-          <a href="secondpage.html">Meet The Team</a>
-          <a href="thirdpage.html">What We Offer</a>
-          <a href="fourthpage.html">Testimonials</a>
-          <a href="fifthpage.html">Contact Us</a>   
-          <!--Alanah's code insert start -->
-          <!--Inpired from:https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
-          <a href="javascript:void(0);" class="icon" onclick="Navbar()">
-                <c class="fa fa-bars"></c></a>
+        <!---------
+        * Owner : Laura Cobham
+        * Date : Nov 28, 2023
+         --------->
+        <div class="navbar" id="myTopnav">
+	  <a class="active" href="index.html">Home</a>
+	  <a href="secondpage.html">Meet The Team</a>
+	  <div class="dropdown">
+	    <button class="dropbtn">What We Offer
+	      <i class="fa fa-caret-down"></i>
+	    </button>
+	    <div class="dropdown-content">
+	      <a href="thirdpage.html">Cartography</a>
+	      <a href="fourthpage.html">Applications</a>
+	    </div>
+	  </div> 
+	  <a href="fifthpage.html">Contact Us</a>
+	<!--Alanah's code insert start -->
+        <!--Inpired from:https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+        <a href="javascript:void(0);" class="icon" onclick="Navbar()">
+        <c class="fa fa-bars"></c></a>
         <!--Alanah's code insert ends-->
-        </div>
-
-                <!-- Laura's code end here --> 
+	</div>
+        <!-- End Owner : Laura Cobham--> 
         
         <!--Julie's code starts here -->
         <div id=heading> 
@@ -39,19 +48,90 @@
         </div>
         <!-- Julie's Code ends here -->
         
-        <!-- Jordan's code starts here -->
-    		<h3> Team Members </h3>
+        <!-- Jordan's header code starts here -->
+    		<h3> About Us </h3>
+        <hr>
+        <p>
+          Formed in 2023, Odder Solutions is now one of the best new and upcoming GIS companies.
+          Our team is comprised of 5 astonishing members: Alanah Reveler, Alison Cooke, Jordan 
+          Steinman, Julie Milne, and Laura Cobham. 
+        </p>
+
+        <p>
+          Here at Odder Solutions, we take our work seriously. Unlike those other companies who
+          would turn you down when the task is too difficult, we will take on anything ..depending
+          on how much you're willing to pay.. because of our amazing teams confidence!
+        </p>
+
+        <p>
+          Our rigourous training processes gives us the best workers who are skilled and able to 
+          complete a vst range of tasks. From the cartographic side of GIS to the to the Applications
+          side, we can take on projects that involce spatial analysis, geovisualization, remote
+          sensing, website designing, database management, python scriping, and more (for the right
+          price).
+        </p>
+
+        <p>
+          P.S. Here's a fun fact about us: our company mascot is an Otter! We call him SQL.
+        </p>
+
     		<hr>
     		<h3> Services Offered </h3>
-    		<hr>
-    		<h3> Previous Work </h3>
-    		<hr>
-    	<!-- Jordan's code ends here -->
+        <!-- Jordan's code ends here -->
+        
+	<!-- Laura's code insert starts here -->
+	<!-- Learned from: https://www.w3schools.com/html/html_tables.asp 
+	     Creating a table and filling the columns -->
+	<table id="services">
+	  <tr>
+	    <th>Services</th>
+	    <th>Price (per hour)</th>
+	  </tr>
+	  <tr>
+	    <td>1 ugly map</td>
+	    <td>$1,000 CAD</td>
+	  </tr>
+	  <tr>
+	    <td>1 okay map</td>
+	    <td>$1 million CAD</td>
+	  </tr>
+	  <tr>
+	    <td>1 amazing map</td>
+	    <td>$1 billion CAD</td>
+	  </tr>
+	  <tr>
+	    <td>ArcGIS Model Building</td>
+	    <td>$1 trillion CAD</td>
+	  </tr>
+	  </tr>
+	</table>
+	<!-- Laura's code insert ends here -->
 
+        <!-- Jordan's header code starts here -->
+        <hr>
+        <h3> Previous Work </h3>
+    	  <!-- Jordan's code ends here -->
+
+        <!---------
+        * Owner : Laura Cobham
+        * Date : Nov 28, 2023
+	* From: https://www.w3schools.com/howto/howto_css_image_gallery.asp
+         --------->
+        <div class="scrollimagegallery">
+		<img src="imagegallery/LauraGallery2.jpg" alt="Qualitative greyscale map of Burlington, ON made by Laura Cobham">
+		<img src="imagegallery/AlanahGallery2.png" alt="Survey plan from Kawartha Lakes made by Alanah Reveler">
+		<img src="imagegallery/JulieGallery2.jpg" alt="Qualitative colour map of Thunder Bay, ON made by Julie Milne">
+        <img src="imagegallery/AlisonGallery2.jpg" alt="ArcGISPro model built by Alison Cooke">
+        <img src="imagegallery/JordanGallery2.jpg" alt="Quantitative colour map of Cambridge, ON made by Jordan Steinman">
+	    <div class="desc">Our team has experience creating projects in softwares like ArcGIS Pro, VisualStudioCode, AutoCAD 3D 2024, PCI Catalyst, Microsoft Access, and more!</div>
+        </div>
+        <!-- End Owner : Laura Cobham-->
+
+        
      <!---Alanah's Code Starts-->
-     <!--Back to top buttom, inspired from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+     <!--Back to top button, inspired from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
      <div>
-        <button onclick="topFunction()" id="topbutton" title="Top">Back to Top</button>
+        <button onclick="topFunction()" id="topbutton" class="top-hide" title="Top">Top</button>
      </div> 
      <!--Alanah Code ends-->  
     </body>
@@ -62,14 +142,14 @@
     --------->
     <footer>
         <p>
-        This is where I'll but the copywrite statement
+        This is where I'll put the copywrite statement
         </p>
         <p> 
         Address: 456 Sesame Street, Hairy Hills AB,T0B 1S0
         </p>
         <p> 
-        contact us here
-        <a href="https://www.w3schools.com/html/html_links.asp" > link to come
+        
+        <a class= "contactbut" href="https://areveler.github.io/a3web/fifthpage.html" > Contact us here
         </a>
         </p>
     </footer>

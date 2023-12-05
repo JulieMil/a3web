@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--https://www.w3schools.com/html/html_responsive.asp-->
     <!--Starting to try and figure out responsive websites-->
     <head>
-        <meta charaet=utf-8>
+        <meta charset=utf-8>
         <link rel="stylesheet" href="Styling.css"> <!--Link to stylesheet-->
         <title> OS-App Experience</title>
         <!-- Julie's Code ends here -->
@@ -15,20 +15,26 @@
         <!---Alanah's code ends-->
     </head>
     <body>
-        <!-- Laura's code starts here -->
-        <div class="topnav" id="myTopnav">
-          <a href="index.html">Home</a>
-          <a href="secondpage.html">Meet The Team</a>
-          <a href="thirdpage.html">What We Offer</a>
-          <a class="active" href="fourthpage.html">Testimonials</a>
-          <a href="fifthpage.html">Contact Us</a>
-          <!--Alanah's code insert start -->
-          <!--Inpired from:https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
-          <a href="javascript:void(0);" class="icon" onclick="Navbar()">
-            <c class="fa fa-bars"></c></a>
-    <!--Alanah's code insert ends-->
-        </div>
-        <!-- Laura's code end here -->
+        <div class="navbar" id="myTopnav">
+	  <a href="index.html">Home</a>
+	  <a href="secondpage.html">Meet The Team</a>
+	  <div class="dropdown">
+	    <button class="dropbtn">What We Offer
+	      <i class="fa fa-caret-down"></i>
+	    </button>
+	    <div class="dropdown-content">
+	      <a href="thirdpage.html">Cartography</a>
+	      <a class="active" href="fourthpage.html">Applications</a>
+	    </div>
+	  </div> 
+	  <a href="fifthpage.html">Contact Us</a>
+	<!--Alanah's code insert start -->
+        <!--Inpired from:https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+        <a href="javascript:void(0);" class="icon" onclick="Navbar()">
+        <c class="fa fa-bars"></c></a>
+        <!--Alanah's code insert ends-->
+	</div>
+	<!-- Laura's code end here -->
         
         <!--Julie's code starts here -->
         <div id=heading> 
@@ -40,27 +46,48 @@
         <!-- Jordan's code starts here -->
         <!---Alanah's Code starts here-->
         <!---Still working on it-->
-    		<h3> GIS Database </h3>
-            <img src="databasemodel.JPG" alt="Model of Tree Survey Database">
-            <p>At Odder solutions we apply principles and techniques of database design and 
-                processing specializing in a GIS environment. We display strong skillsets in 
-                designing, implementing, and managing databases using desktop and mobile devices. 
-                As well as using structured query language (SQL) to build databases and manipulate
-                 data for future work in data processing, GIS analyst, and cartographic presentation. </p>
-            <p>One database service we offer is designing a survey using 123. Our survey123 services 
-                includes meeting all your data requirements with data integrity and efficiency and 
-                creating an easy-to-use survey user interface!</p>
-            <p>Another database services we offer is designing a database in Access. Our database 
-                design service is assembling data from various sources and create database. 
-                The created database will be efficient, data cohesiveness and no data lost! </p>
+        <h3> GIS Database </h3>
+        <section id='databaseSECTION'>
+            <img id='databaseIMAGE' src="databasemodel.JPG" alt="Model of Tree Survey Database">
+            <div id='databaseINFO'>
+                <p>At Odder Solutions we apply principles and techniques of database design and 
+                    processing specializing in a GIS environment. We display strong skills in 
+                    designing, implementing, and managing databases using desktop and mobile devices. 
+                    As well as using structured query language (SQL) to build databases and manipulate
+                     data for future work in data processing, GIS analysis, and cartographic presentation. </p>
+                <p>One database service we offer is designing a survey using 123. Our survey123 services 
+                    includes meeting all your data requirements with data integrity and efficiency and 
+                    creating an easy-to-use survey user interface!</p>
+                <p>Another database service we offer is designing a database in Access. Our database 
+                    design service is assembling data from various sources and creating databases. 
+                    The created database will be efficient, with data cohesiveness, and no data lost! </p>
+            </div>
+        </section>
         <!---Alanah's code ends here-->
     		<hr>
-    		<h3> Services Offered </h3>
+    		<h3> Web Design and Programming </h3>
     		<hr>
+
+    <!-- Laura's code insert starts -->
+        <section id='webSECTION'>
+	<img id='webIMAGE' src="webcode.png" alt="Screenshot of webpage HTML code">
+	<div id='webINFO'>
+		<p>As part of our commitment to a great customer experience, Odder Solutions recognizes how important a good website is. Whether you are an individual or organization, 
+			we have a skilled team that is experienced in static maps, HTML, CSS, Javascript, and JQuery. These skills allow us to present the best possible image for our customers to the public. </p>
+		<p>We provide one-on-one consultations on what you are looking for on your webpage, then building your code from scratch and offering any revisions in the process. </p>
+		<p>Another one of our web services includes ensuring zero errors or warnings on your webpage so that any visitor to your site can easily find what they are looking for! Your final website will be aesthetically pleasing, error-free, and easy to navigate!</p>
+	</div>
+    </section>
+        <!-- Laura's code insert ends -->
     		<h3> Previous Work </h3>
     		<hr>
     	<!-- Jordan's code ends here -->
-        
+    <!---Alanah's Code Starts-->
+     <!--Back to top button, inspired from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+     <div>
+        <button onclick="topFunction()" id="topbutton" class="top-hide" title="Top">Top</button>
+     </div> 
+     <!--Alanah Code ends-->     
     </body>
     <!-----------
     - Owner : Alison Cooke
@@ -75,8 +102,8 @@
         Address: 456 Sesame Street, Hairy Hills AB,T0B 1S0
         </p>
         <p> 
-        contact us here
-        <a href="https://www.w3schools.com/html/html_links.asp" > link to come
+        
+        <a class= "contactbut" href="https://areveler.github.io/a3web/fifthpage.html" > Contact us here
         </a>
         </p>
     </footer>

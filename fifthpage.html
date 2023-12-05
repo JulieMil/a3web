@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--https://www.w3schools.com/html/html_responsive.asp-->
     <!--Starting to try and figure out responsive websites-->
     <head>
-        <meta charaet=utf-8>
+        <meta charset=utf-8>
         <link rel="stylesheet" href="Styling.css"> <!--Link to stylesheet-->
         <title> Contact Us! </title>
         <!-- Julie's Code ends here -->
@@ -17,20 +17,26 @@
     <!--<script src="https://kit.fontawesome.com/877d2cecdc.js" crossorigin="anonymous"></script>-->
     <body>
         <!-- Laura's code starts here -->
-        <div class="topnav" id="myTopnav">
-          <a href="index.html">Home</a>
-          <a href="secondpage.html">Meet The Team</a>
-          <a href="thirdpage.html">What We Offer</a>
-          <a href="fourthpage.html">Testimonials</a>
-          <a class="active" href="fifthpage.html">Contact Us</a>
-          <!--Alanah's code insert start -->
-          <!--Inpired from:https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
-          <a href="javascript:void(0);" class="icon" onclick="Navbar()">
-            <c class="fa fa-bars"></c></a>
-    <!--Alanah's code insert ends-->
-        </div>
-        <!-- Laura's code end here -->
-        
+        <div class="navbar" id="myTopnav">
+	  <a href="index.html">Home</a>
+	  <a href="secondpage.html">Meet The Team</a>
+	  <div class="dropdown">
+	    <button class="dropbtn">What We Offer
+	      <i class="fa fa-caret-down"></i>
+	    </button>
+	    <div class="dropdown-content">
+	      <a href="thirdpage.html">Cartography</a>
+	      <a href="fourthpage.html">Applications</a>
+	    </div>
+	  </div> 
+	  <a class="active" href="fifthpage.html">Contact Us</a>
+	<!--Alanah's code insert start -->
+        <!--Inpired from:https://www.w3schools.com/howto/howto_js_topnav_responsive.asp-->
+        <a href="javascript:void(0);" class="icon" onclick="Navbar()">
+        <c class="fa fa-bars"></c></a>
+        <!--Alanah's code insert ends-->
+	</div>
+	<!-- End Owner : Laura Cobham-->
         <!--Julie's code starts here -->
         <div id=heading> 
             <h1>Get in Touch</h1>
@@ -39,40 +45,101 @@
         <!-- Julie's Code ends here -->
         
         <!-- Jordan's code starts here -->
-    		<h3> Contact Us </h3>
-    		<hr>
-    		<h3> Customer Reviews </h3>
-            <!----Alanah's code insert start-->
-            <!---Accordion button inpired from https://www.w3schools.com/howto/howto_js_accordion.asp -->
-            <button onclick="accordion(rev1)" class="accordion"><i class ='fas fa-star'></i><i class ='far fa-star'></i><i class='far fa-star'></i><i class ='far fa-star'></i><i class ='far fa-star'></i></button>
-            <div id="rev1" class="panel">
+    	<h3> Contact Us </h3>
+
+            <!-- info on forms from https://www.w3schools.com/html/html_forms.asp -->
+        <div id="contactform">
+            <div id="formbox">
+                <form>
+                    <label for="visitorname">Name:</label>
+                    <input type="text" id="visitorname" name="visitorname" placeholder="Enter your name...">
+                    
+                    <label for="visitoremail">Email:</label>
+                    <input type="text" id="visitoremail" name="visitoremail" placeholder="Enter your email...">
+                    
+                    <label>Reason for contacting:</label>
+                    
+                    <div id="allreasons">
+                        <!-- inputs nested into labels to keep text with input since css display:inline with div would not override, idea from
+                        https://forum.freecodecamp.org/t/need-helps-how-to-put-input-and-label-on-the-same-line-using-flex-for-survey-form/497904/5 -->
+                        <label for="inquiry">
+                        <input type="radio" id="inquiry" name="contactreason" value="General inquiry">
+                        General inquiry</label>
+                        <label for="compliments">
+                        <input type="radio" id="compliments" name="contactreason" value="Compliments">
+                        Compliments</label>
+                        <label for="complaints">
+                        <input type="radio" id="complaints" name="contactreason" value="Complaints">
+                        Complaints</label>
+                        <label for="other">
+                        <input type="radio" id="other" name="contactreason" value="Other">
+                        Other</label>
+                    </div>
+                    
+                    <label for="messagebox">Please type your message below:</label>
+                    <!-- text area idea from https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_textarea -->
+                    <textarea id="messagebox" name="messagebox" rows="10" placeholder="Write your comment here..."></textarea>
+                </form>
+            </div>
+            <p id="submittext"> Hit submit when finished writing! </p>
+            <button class="submitbutton" type="button" onclick="submitalert()">Submit</button>
+        </div>
+
+    	<hr>
+    	<h3> Customer Reviews </h3>
+        <!-- Jordan's code ends here -->
+
+        <!----Alanah's code insert start-->
+        <!---Accordion button inpired from https://www.w3schools.com/howto/howto_js_accordion.asp -->
+	<div>
+            <button onclick="Accordion('review1')" class="accordion"><i class ='fas fa-star'></i><i class ='far fa-star'></i><i class='far fa-star'></i><i class ='far fa-star'></i><i class ='far fa-star'></i></button>
+            <div id="review1" class="panel-hide">
                 <p>Enter in review, can change star rating: fas fa-star is solid star, far fa-star is empty star, far fa-star-half is half a star</p>
             </div>
-            <button class="accordion"><i class ='fas fa-star'></i><i class ='far fa-star'></i><i class='far fa-star'></i><i class ='far fa-star'></i><i class ='far fa-star'></i></button>
-            <div class="panel">
-                <p>Lorem ipsum...</p>
-            </div>
-            <button class="accordion"><i class ='fas fa-star'></i><i class ='far fa-star'></i><i class='far fa-star'></i><i class ='far fa-star'></i><i class ='far fa-star'></i></button>
-            <div class="panel">
-                <p>Lorem ipsum...</p>
-            </div>
-            <!--Alanah's code insert ends here-->
-    		<hr>
+	</div>
+	<div>
+            <button onclick="Accordion('review2')" class="accordion"><i class ='fas fa-star'></i><i class ='far fa-star'></i><i class='far fa-star'></i><i class ='far fa-star'></i><i class ='far fa-star'></i></button>
+		<div id="review2" class="panel-hide">
+			<p>Enter in review, can change star rating: fas fa-star is solid star, far fa-star is empty star, far fa-star-half is half a star</p>
+		</div>
+	</div>
+			
+	<div>
+            <button onclick="Accordion('review3')" class="accordion"><i class ='fas fa-star'></i><i class ='far fa-star'></i><i class='far fa-star'></i><i class ='far fa-star'></i><i class ='far fa-star'></i></button>
+		<div id="review3" class="panel-hide">
+			<p>Enter in review, can change star rating: fas fa-star is solid star, far fa-star is empty star, far fa-star-half is half a star</p>
+		</div>
+	</div>
+        <!--Alanah's code insert ends here-->
+
+    	<!-- Jordan's code ends here -->
+            <hr>
+            <h3> Location </h3>
     	<!-- Jordan's code ends here -->
 
-        <!--Julie's Code Starts here-->
+         <!--Julie's Code Starts here Dec 1, 2023-->
         <div id="OSMap">
-            <div class="mapINFO">
+			
+                <img class='staticMap' src="https://maps.googleapis.com/maps/api/staticmap?center=44.350220%20-78.740030&zoom=11&size=600x375&maptype=roadmap&key=AIzaSyD1Tk0KkDWUvFEaVfc79DU9C4dk5x-CjwI" alt="Map of Lindsay Ontario">
+            
+			<div class="mapINFO">
                 <h3>We are based in the beautiful Kawartha Lakes</h3>
-                <p>But Thanks to the power of online work, distance is no obstacle.</p>
+                <p>Thanks to the power of online work, distance is no obstacle. Ut vehicula felis arcu, vel auctor magna facilisis eu. 
+				Sed cursus lectus diam, at cursus tellus varius sed. Orci varius natoque penatibus et magnis dis parturient montes, 
+				nascetur ridiculus mus. Morbi scelerisque nulla sem, sit amet ullamcorper orci egestas sit amet. Integer nisi diam, 
+				tristique non tempus nec, rutrum rutrum sapien. Donec ac cursus mauris, vel egestas odio. Maecenas lorem dolor, 
+				mollis vel justo non, lobortis aliquet eros. </p>  <!-- Sourced from https://www.lipsum.com/feed/html-->
             </div>
-            <div class="staticMap">
-                <img id='staticMap' src="https://maps.googleapis.com/maps/api/staticmap?center=44.350220%20-78.740030&zoom=11&size=600x375&maptype=roadmap&key=AIzaSyD1Tk0KkDWUvFEaVfc79DU9C4dk5x-CjwI" alt="Map of Lindsay Ontario">
-            </div>
+
             <div id="MapClear"></div>
         </div>
         <!--Julie's Code Ends here-->
-        
+      <!---Alanah's Code Starts-->
+     <!--Back to top button, inspired from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+     <div>
+        <button onclick="topFunction()" id="topbutton" class="top-hide" title="Top">Top</button>
+     </div> 
+     <!--Alanah Code ends-->  
     </body>
     <!-----------
     - Owner : Alison Cooke
@@ -88,33 +155,10 @@
         </p>
         <p> Call us at 867-5309</p>
         <p> 
-        contact us here
-        <a href="https://www.w3schools.com/html/html_links.asp" > link to come
+        
+        <a class= "contactbut" href="https://areveler.github.io/a3web/fifthpage.html" > Contact us here
         </a>
         </p>
     </footer>
     <!-------------- ***End Owner : Alison Cooke*** ------------->
-   <!-------Alanah Code Starts-------->
-   <!---Code for accordion button, wont run if external. Inpired from https://www.w3schools.com/howto/howto_js_accordion.asp--->
-   <script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
-    
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function() {
-        /* Toggle between adding and removing the "active" class,
-        to highlight the button that controls the panel */
-        this.classList.toggle("active");
-    
-        /* Toggle between hiding and showing the active panel */
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-        panel.style.display = "none";
-        } else {
-        panel.style.display = "block";
-        }
-    });
-    }
-    </script>
-    <!---Alanah Code ends--->
 </html>
