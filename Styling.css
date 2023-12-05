@@ -132,38 +132,26 @@ div.desc {
   text-decoration: underline;
   color: #f1e3dd;
 }
-/*Applications page, styling web section (image and text)*/
+/*Applications page, styling web section (image and text), making responsive*/
 #webSECTION{
 	width:100%;
-	display:flex;
 	align-items:center;
+	display:block;
+	max-height:1500px;
+	background-color: #f1e3dd;
 }
 
 #webINFO{
-	float:right;
+	min-width:30%;
+	float: none;
 	margin-left: 20px;
 }
-
 #webIMAGE{
-	float:left;
+	max-width:100%;
+	display: block;
+	float: left;
+	margin: auto;
 }
-/*Making the web section responsive*/
-	#webSECTION{
-		display:block;
-		max-height:1500px; 
-	}
-	
-	#webIMAGE{
-		max-width:100%;
-		display: block;
-		float: none;
-		margin: auto;
-	}
- 
-	#webINFO{
-		min-width:30%;
-		float: none;	
-	}
 /* End Owner : Laura Cobham*/
 
 /*Alanah code starts*/
