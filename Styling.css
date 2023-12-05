@@ -90,10 +90,12 @@ div.scrollimagegallery {
   overflow: auto;
   white-space: nowrap;
   width: 100%
+  max-width: 600px;
 }
 div.scrollimagegallery img {
   padding: 10px;
   width: 100%
+  max-width: 600px;
 }
 div.desc {
   padding: 10px;
