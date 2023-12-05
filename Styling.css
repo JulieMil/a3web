@@ -154,6 +154,8 @@ div.desc {
 .tableSECTION{
 	background-color: #383f52;
 	align-items:center;
+	display:block;
+	max-height:1500px;
 }
 /* End Owner : Laura Cobham*/
 
