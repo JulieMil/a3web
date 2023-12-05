@@ -89,13 +89,9 @@ div.scrollimagegallery {
   padding: 0px;
   overflow: auto;
   white-space: nowrap;
-  width: 100%
-  max-width: 600px;
 }
 div.scrollimagegallery img {
   padding: 10px;
-  width: 100%
-  max-width: 600px;
 }
 div.desc {
   padding: 10px;
@@ -103,6 +99,12 @@ div.desc {
   font-weight: bold;
   width: 100%
 }
+@media screen and (max-width: 600px){
+    div.scrollimagegallery {width:100%;
+	display: flex;
+        flex-direction:	column; 
+	max-height: 600px}
+    div.desc {width: 100%; float: none;}
 /* Editing scrollbar properties learnt from: https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
 /* Styling of scrollbar size */
 ::-webkit-scrollbar {
@@ -128,15 +130,20 @@ div.desc {
   color: white;
 }
 /* Styling every other row */
-#services tr:nth-child(even){background-color: #8d9db6;}
-#services tr:nth-child(odd){background-color: #667292;}
+#services tr:nth-child(even){
+  background-color: #8d9db6;}
+  font-size: 15px;
+#services tr:nth-child(odd){
+  background-color: #667292;
+  font-size: 15px;
+}
 #services th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
   text-decoration: underline;
   color: #f1e3dd;
-  font-size: 15px;
+  font-size: 18px;
 }
 /*Applications page, styling web section (image and text), making responsive*/
 #webSECTION{
