@@ -317,9 +317,10 @@ padding-right: 100px;
 
 .imagecap {text-align:center;
 color: #f1e3dd; /* added an image caption to indicate the user can click on the image */
-font-size:10px;
+font-size:12px;
 font-weight: bold;
 font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+padding-top: 20px;
 }
 
 .contactbut:link, .contactbut:visited {
