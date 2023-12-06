@@ -391,7 +391,7 @@ padding-top: 20px;
 .top-show{
   display:block;
 }
-.top-hide{
+.hide{
   display:none;
 }
 
@@ -412,9 +412,9 @@ padding-top: 20px;
 }
 /*classes to make panel appear*/  
 
-.panel-hide {
+/*.panel-hide {
   display: none;
-}
+}*/
 	
 .panel-show {
   padding: 0 18px;
