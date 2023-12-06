@@ -283,7 +283,7 @@ input[type=text], textarea {
 #SpatialPage {background-color: #383f52}		/*ID SpatialPage is on thirdpage.html*/
 .spatialList {color: white}				/*Class spatialList is on thirdpage.html*/
 
-#SpatialIMG{max-width:381px; max-height: 576px;
+#SpatialIMG{max-width:576px; max-height: 381px;
 }
 /* Julie's Code Ends Here */
 
@@ -378,7 +378,9 @@ padding-top: 20px;
 
   .cartimg{width: 50%; 
   float: left; 
-  max-width: 100%;}
+  max-width: 100%;
+  max-width:576px; max-height: 381px;
+  }
  /*formating for responsive*/
 
 
