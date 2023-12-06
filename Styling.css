@@ -270,18 +270,18 @@ input[type=text], textarea {
 	https://stackoverflow.com/questions/489340/vertically-align-text-next-to-an-image 
 ***********************/
 
-	#OSMap {width:100%; background-image: linear-gradient(rgb(198, 101, 101), rgb(235, 164, 189)); 
+	#OSMap {width:100%; background-image: linear-gradient(rgb(198, 101, 101), rgb(235, 164, 189)); /* ID OSmap is on fifthpage */
 	  display: flex;
 				align-items: center; max-height: 600px }  /*defines the div, containing an image and a text element, with dimensions, alligns items and adds a background colour */
 
 
-	.mapINFO {width: 50%; float: right;}   /*Sets text to display on the right of the page*/
+	.mapINFO {width: 50%; float: right;}   /*Class mapINFO is on fifthpage,Sets text to display on the right of the page*/
 
-	.staticMap {width: 50%; float: left; max-width: 100%;}  	/*Sets image to display on the left of the page*/
+	.staticMap {width: 50%; float: left; max-width: 100%;}  	/*Class staticMap is on fifthpage, Sets image to display on the left of the page*/
 
     
-#SpatialPage {background-color: #383f52}
-.spatialList {color: white}
+#SpatialPage {background-color: #383f52}		/*ID SpatialPage is on thirdpage.html*/
+.spatialList {color: white}				/*Class spatialList is on thirdpage.html*/
 /* Julie's Code Ends Here */
 
 
@@ -468,7 +468,14 @@ padding-top: 20px;
 }
 
 /*End Owner:Alanah Reveler*/
-@media screen and (max-width: 962px) {   /* formating that will apply to tablets or smaller - Breaks sourced from https://www.optimonk.com/above-the-fold/ - Julie */
+
+/******************* 
+Owner - Julie
+From: Breaks sourced from https://www.optimonk.com/above-the-fold/ 
+formating that will apply to tablets or smaller 
+***************/
+@media screen and (max-width: 962px) {   
+/* Julie's Code ends*/
 	/*Owner:Alanah Reveler*/
 	/*styleing to make navbar responsive*/
 	/*From:https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp*/
@@ -540,17 +547,14 @@ padding-top: 20px;
 	
 /* Julie's Code Starts Here 
 ** Date: December 1, 2023*/ 
+ 
     .staticMap {max-width: 100%; padding-left: 5px }
-	/* Julie's Code Ends Here */ 
+
 }
 
 @media screen and (max-width: 600px){    /*Formating that applys to Cellphones - Breaks sourced from https://www.optimonk.com/above-the-fold/ Julie */
 
-/* Julie's Code Starts Here 
-** Date: December 1, 2023*/ 
-
-
-    #OSMap {width:100%; display: flex;
+    #OSMap {width:100%; display: flex;    /*OSMap on fifthpage.html, changes to the display text box under the image on a small screen*/
             flex-direction: column; max-height: 600px}
     .mapINFO {width: 100%; float: none;}
 
