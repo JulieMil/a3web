@@ -520,11 +520,11 @@ padding-top: 20px;
 
   /* Jordan's code */
   #pythonSECTION{
-		display:block; 
+		justify-content:center;
+    display:block; 
 	}
 	
 	#pythonIMAGE{
-		justify-content:center;
     max-width:100%;
 		display:block;
 		float:none;
@@ -533,7 +533,8 @@ padding-top: 20px;
 	#pythonINFO{
 		min-width:30%;
 		float:none;
-    margin:auto;	
+    margin:auto;
+    text-align:left;	
 	}
 
   /* Jordan's code*/
