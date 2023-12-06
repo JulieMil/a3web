@@ -361,12 +361,6 @@ padding-top: 20px;
 
 /*Owner:Alanah Reveler*/
 
-/*style fo icon for navbar*/
-/*From: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
-	.navbar .icon {
-		display: none;
-  	}
-
 /*Back to top button*/
 /*From: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 
@@ -391,7 +385,9 @@ padding-top: 20px;
 .top-show{
   display:block;
 }
-.hide{
+/*  and style fo icon for navbar*/
+/*From: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
+.navbar .icon .hide{
   display:none;
 }
 
@@ -411,10 +407,6 @@ padding-top: 20px;
   background-color: #8d9db6;
 }
 /*classes to make panel appear*/  
-
-/*.panel-hide {
-  display: none;
-}*/
 	
 .panel-show {
   padding: 0 18px;
