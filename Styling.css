@@ -155,10 +155,13 @@ div.scrollimagegallery img {
 	float: none;
 	margin: auto;
 }
-.buttons {
+#CustomerReviews {
 	color: #f1e3dd;
-  	font-size:30px;
 	font-weight: bold;
+	font-size:28px;
+	letter-spacing: 1px;
+	font-weight: normal;
+	text-align: center;
 }
 
 /* End Owner : Laura Cobham*/
