@@ -282,6 +282,9 @@ input[type=text], textarea {
     
 #SpatialPage {background-color: #383f52}		/*ID SpatialPage is on thirdpage.html*/
 .spatialList {color: white}				/*Class spatialList is on thirdpage.html*/
+
+#SpatialIMG{max-width:381px; max-height: 576px;
+}
 /* Julie's Code Ends Here */
 
 
