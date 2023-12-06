@@ -386,7 +386,7 @@ padding-top: 20px;
 .top-show{
   display:block;
 }
-.hide{
+.top-hide{
   display:none;
 }
 
@@ -406,10 +406,10 @@ padding-top: 20px;
   background-color: #8d9db6;
 }
 /*classes to make panel appear*/  
-/*}
+
 .panel-hide {
   display: none;
-}*/
+}
 	
 .panel-show {
   padding: 0 18px;
