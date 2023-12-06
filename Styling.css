@@ -360,7 +360,11 @@ padding-top: 20px;
 
 
 /*Owner:Alanah Reveler*/
-
+/* style for icon for navbar*/
+/*From: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
+.navbar .icon {
+  display:none;
+}
 /*Back to top button*/
 /*From: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 
@@ -385,9 +389,9 @@ padding-top: 20px;
 .top-show{
   display:block;
 }
-/*  and style fo icon for navbar*/
+/* style for icon for navbar*/
 /*From: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
-.navbar .icon .hide{
+.hide{
   display:none;
 }
 
