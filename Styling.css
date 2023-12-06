@@ -245,7 +245,7 @@ input[type=text], textarea {
 /* From: Make a responsive image https://www.w3schools.com/howto/howto_css_image_responsive.asp, https://developer.mozilla.org/en-US/docs/Web/CSS/align-items,
 	https://stackoverflow.com/questions/489340/vertically-align-text-next-to-an-image */
 
-	#OSMap {width:100%; background-image: linear-gradient(red, orange); 
+	#OSMap {width:100%; background-image: linear-gradient(rgb(198, 101, 101), rgb(235, 164, 189)); 
 	  display: flex;
 				align-items: center; max-height: 600px }
 
@@ -259,11 +259,11 @@ input[type=text], textarea {
 
 
 
-/**********************
+/************************************************************************************************
 * Owner : Alison Cooke
 * Date : Nov 21, 2023
 * From : https://www.w3schools.com/css/default.asp
-***********************/
+**************************************************************************************************/
 footer {text-align: center;/* aligns text to the center of the page */
 	font-size: 14pt;
    padding: 10px; /* adding padding to the content bock */
@@ -273,7 +273,8 @@ footer {text-align: center;/* aligns text to the center of the page */
 	}
 p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 	}/* the font family fot the webpagecetury gothic becasue it is sans-serif and easily distinguished */
-
+.resumeblock{background-color: #667292;
+  border-radius: 25px;}
 .resumes {color: #f1e3dd; /* style for the headers on the page separate style from other headers (h3) */
   font-size:25px;/* larger font size */
 	letter-spacing: 1px;
@@ -286,11 +287,11 @@ p {font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   background-color: #f1e3dd;
   color: #667292;
   border: 2px solid #667292;
+  border-radius: 25px; /* taken from w3schools https://www.w3schools.com/css/css3_borders.asp*/
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  
   
 }
   
@@ -315,7 +316,6 @@ padding-right: 100px;
   outline-color: #ffffff;
 }
 
-
 .imagecap {text-align:center;
 color: #f1e3dd; /* added an image caption to indicate the user can click on the image */
 font-size:12px;
@@ -324,8 +324,9 @@ font-family:"Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 padding-top: 20px;
 }
 
-.contactbut:link, .contactbut:visited {
+.contactbut:link, .contactbut:visited { /* contact us here button css, taken from w3schools and from my previous web design project*/
   background-color: #667292;
+
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -338,7 +339,6 @@ padding-top: 20px;
   color: black;
 }
 
-
 .cartsection {width:100%; background-color: #383f52; 
   display: flex;
       align-items: center; max-height: 700px }
@@ -349,12 +349,12 @@ padding-top: 20px;
   .cartimg{width: 50%; 
   float: left; 
   max-width: 100%;}
- 
+ /*formating for responsive*/
 
 
 
 .carthead {color:#faebd7}
-/* End Owner : Alison Cooke*/
+/********************************************* End Owner : Alison Cooke****************************************************/
 
 /*Julie's Code Starts Here*/
 #SpatialPage {background-color: #383f52}
