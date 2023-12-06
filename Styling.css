@@ -181,7 +181,7 @@ h3 {color: #fff;
 }
 
 #pythonINFO{
-  max-height:700px;
+  float:right;
 	min-width:30%;
 }
 
@@ -518,6 +518,25 @@ padding-top: 20px;
 	}
 
   /* End Owner:Alanah Reveler */
+
+  /* Jordan's code */
+  #pythonSECTION{
+		display:block; 
+	}
+	
+	#pythonIMAGE{
+		max-width:100%;
+		display:block;
+		float:none;
+	}
+ 
+	#pythonINFO{
+		min-width:30%;
+		float:none;
+    margin:auto;	
+	}
+
+  /* Jordan's code*/
 	
 /* Julie's Code Starts Here 
 ** Date: December 1, 2023*/ 
