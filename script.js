@@ -27,7 +27,7 @@ function scrollTopButton() {
   if (document.documentElement.scrollTop > 10) {
     document.getElementById("topbutton").className = "top-show"; //changes class to top-show where display:block
   } else {
-    document.getElementById("topbutton").className = "hide"; //keeps class to top-hide where display:none
+    document.getElementById("topbutton").className = "top-hide"; //keeps class to top-hide where display:none
   }
 }
 
