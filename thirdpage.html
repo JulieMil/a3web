@@ -13,11 +13,10 @@
         <!---Owner End:Alanah Reveler-->
     </head>
     <body>
-         <!---------
-        * Owner : Laura Cobham
-        * Date : Nov 28, 2023
+         <!--
+        * Owner : Laura Cobham (navbar links to different pages)
         * From : https://www.w3schools.com/colors/colors_palettes.asp
-         --------->
+         -->
         <div class="navbar" id="myTopnav">
 	  <a href="index.html">Home</a>
 	  <a href="secondpage.html">Meet The Team</a>
@@ -31,7 +30,7 @@
 	    </div>
 	  </div> 
 	  <a href="fifthpage.html">Contact Us</a>
-	<!-- Laura's code end here --> 
+	<!-- End Owner: Laura Cobham --> 
 	<!--
 	*Owner:Alanah Reveler 
 	*Linking javascript to navbar	
@@ -40,15 +39,22 @@
         <a href="javascript:void(0);" class="icon" onclick="Navbar()">
         <i class="fa fa-bars"></i></a>
         <!--Owner End:Alanah Reveler-->
+	<!--
+        * Owner : Laura Cobham (relative links within same page)
+        * From : https://www.w3schools.com/colors/colors_palettes.asp
+         -->
+	<hr>
+	<a href="#SpatialAnalysis" class="buttons">Spatial Analysis</a>
+	<a href="#Geovisualization" class="buttons">Geovisualization</a>
+	<hr>
 	</div>
+	<!-- End Owner: Laura Cobham --> 
         <!--Julie's code starts here -->
         <div id=heading> 
             <h1>Cartography</h1>
             <h2>Spatial Analysis, Geovisualization</h2>
         </div>
-
-
-    		<h3 class="carthead" > Spatial Analysis </h3> 
+    		<h3 id="SpatialAnalysis" class="carthead" > Spatial Analysis </h3> 
             <div class="cartsection" id="SpatialPage">
               <img class= "cartimg" src= "imagegallery/SpatialExampleJM.JPG" alt="Spatial Analysis of Amenities in Thunder Bay Ontario">
               <div class="carttext"><h3> Spatial Analysis is all around us, Contact Us</h3> 
@@ -60,16 +66,11 @@
               </div>
             </div>
             <div id="cartbreak"></div>
-
-
         <!-- Julie's Code ends here -->
         
         <!--  Alisons code starts here -->
-    		
-    		<hr>
-       
-      
-    		<h3 class="carthead"> Geovisualization </h3> 
+    	<hr>     
+    		<h3 id="Geovisualization" class="carthead"> Geovisualization </h3> 
             <div class="cartsection">
             <img class= "cartimg" src= "imagegallery/GVITF2GreyscaleMap.jpg" alt="example of Geovisualization">
             <div class="carttext">
@@ -78,7 +79,7 @@
                 documentation of map elements </p></div>
             </div>
             <div id="cartbreak"></div>
-            <hr>
+        <hr>
 	<!---
 	*Owner:Alanah Reveler
 	*HTML for back to top button    
@@ -94,7 +95,6 @@
     - From : https://www.w3schools.com/tags/tag_footer.asp
     --------->
     <footer>
-        
         <p> 
         Address: 456 Sesame Street, Hairy Hills AB,T0B 1S0
         </p>
