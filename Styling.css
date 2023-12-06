@@ -187,7 +187,9 @@ h3 {color: #fff;
 
 #pythonIMAGE{
 	width:70%;
+  height:auto;
 	max-width:785px; 
+  max-height:400px;
 	float:right;
 }
 
