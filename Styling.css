@@ -158,10 +158,9 @@ div.scrollimagegallery img {
 .buttons {
 	color: #f1e3dd;
 	font-weight: bold;
-	font-size:28px;
-	letter-spacing: 1px;
-	font-weight: normal;
-	text-align: center;
+	font-size: 28px;
+	margin-right: 30px;
+	text-decoration: none
 }
 
 /* End Owner : Laura Cobham*/
