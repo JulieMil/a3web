@@ -404,6 +404,7 @@ padding-top: 20px;
 
 .active, .accordion:hover {
   background-color: #8d9db6;
+}
 /*classes to make panel appear*/  
 /*}
 .panel-hide {
