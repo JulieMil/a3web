@@ -385,7 +385,8 @@ padding-top: 20px;
   font-size: 18px; /* Increase font size */
 }
 #topbutton:hover {
-  background-color: #bccad6; 
+  background-color: #bccad6; }
+
 /*class to make button appear*/
 .top-show{
   display:block;
