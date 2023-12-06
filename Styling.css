@@ -155,7 +155,7 @@ div.scrollimagegallery img {
 	float: none;
 	margin: auto;
 }
-#CustomerReviews:link {
+.buttons {
 	color: #f1e3dd;
   	font-size:30px;
 	font-weight: bold;
