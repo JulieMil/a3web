@@ -172,6 +172,25 @@ h3 {color: #fff;
 	text-align: center;
 }
 
+/*Formatting for Data service section*/
+#pythonSECTION{
+	display:flex;
+  max-height:700px;
+  width:100%;
+	align-items:center;
+}
+
+#pythonINFO{
+	min-width:30%;
+	float:left;
+}
+
+#pythonIMAGE{
+	width:70%;
+	max-width:785px; 
+	float:right;
+}
+
 /* ideas for form css from https://www.w3schools.com/howto/howto_css_contact_form.asp */
 
 /* displaying labels as a block instead of inline */
