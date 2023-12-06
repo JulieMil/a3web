@@ -182,7 +182,7 @@ h3 {color: #fff;
 
 #pythonINFO{
 	min-width:30%;
-	float:left;
+	float:right;
 }
 
 #pythonIMAGE{
@@ -190,7 +190,7 @@ h3 {color: #fff;
   height:auto;
 	max-width:785px; 
   max-height:400px;
-	float:right;
+	float:left;
 }
 
 /* ideas for form css from https://www.w3schools.com/howto/howto_css_contact_form.asp */
