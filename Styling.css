@@ -26,7 +26,8 @@
 * Owner : Laura Cobham
 * Date : Nov 28, 2023
 ***********************/
-/* Dropdown navbar learnt from:https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
+/* This section styles the navbar and the dropdown menu within it
+Dropdown navbar learnt from:https://www.w3schools.com/howto/howto_css_dropdown_navbar.asp */
 .navbar {
   background-color: #667292;
   overflow: auto;
@@ -94,7 +95,6 @@ div.scrollimagegallery img {
   padding: 10px;
   max-width: 50%;
 }
-
 /* Editing scrollbar properties learnt from: https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp */
 /* Styling of scrollbar size */
 ::-webkit-scrollbar {
@@ -143,7 +143,6 @@ div.scrollimagegallery img {
 	max-height:1500px;
 	background-color: #667292;
 }
-
 #webINFO{
 	min-width:30%;
 	float: none;
@@ -155,6 +154,7 @@ div.scrollimagegallery img {
 	float: none;
 	margin: auto;
 }
+/*Styling relative nav buttons*/
 .buttons {
 	color: #f1e3dd;
 	font-weight: bold;
@@ -162,7 +162,6 @@ div.scrollimagegallery img {
 	margin-right: 30px;
 	text-decoration: none
 }
-
 /* End Owner : Laura Cobham*/
 
 /* Jordan's Code Starts Here */
