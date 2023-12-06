@@ -157,12 +157,6 @@ div.scrollimagegallery img {
 }
 /* End Owner : Laura Cobham*/
 
-/*Alanah code starts*/
-	.navbar .icon {
-		display: none;
-  	}
-/*Alanah code ends*/
-
 /* Jordan's Code Starts Here */
 /* page sub headings*/
 h3 {color: #fff;
@@ -356,13 +350,25 @@ padding-top: 20px;
 .carthead {color:#faebd7}
 /********************************************* End Owner : Alison Cooke****************************************************/
 
+
+
+
+
 /*Julie's Code Starts Here*/
 #SpatialPage {background-color: #383f52}
 .spatialList {color: white}
 
 
-/*Alanah Code Starts*/
-/*Back to top button, inspired from: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
+/*Owner:Alanah Reveler*/
+
+/*style fo icon for navbar*/
+/*From: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
+	.navbar .icon {
+		display: none;
+  	}
+
+/*Back to top button*/
+/*From: https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 
 #topbutton {
   position: fixed; /* Fixed/sticky position */
@@ -378,16 +384,16 @@ padding-top: 20px;
   border-radius: 10px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
 }
+#topbutton:hover {
+  background-color: #bccad6; 
 /*class to make button appear*/
 .top-show{
   display:block;
 }
-.top-hide{
+.hide{
   display:none;
 }
-#topbutton:hover {
-  background-color: #bccad6; 
-}
+
 /*accordion button inspired from https://www.w3schools.com/howto/howto_js_accordion.asp*/
 .accordion{
   background-color: #667292;
@@ -402,11 +408,12 @@ padding-top: 20px;
 
 .active, .accordion:hover {
   background-color: #8d9db6;
-  
-}
+/*classes to make panel appear*/  
+/*}
 .panel-hide {
   display: none;
-}
+}*/
+	
 .panel-show {
   padding: 0 18px;
   background-color: #bccad6;
@@ -415,7 +422,7 @@ padding-top: 20px;
   margin: 5px;
 }
 
-/*Formatting for dataservice */
+/*Formatting for Data service section*/
 #databaseSECTION{
 	width:100%;
 	display:flex;
@@ -430,15 +437,18 @@ padding-top: 20px;
 
 #databaseIMAGE{
 	width:70%;
-	max-width:785px; /*numbers based on current photo,if photochanges, change values*/
+	max-width:785px; 
 	height:auto;
 	max-height: 405px;
 	float:left;
 }
 
-/*Alanah code ends here*/
+/*End Owner:Alanah Reveler*/
 @media screen and (max-width: 962px) {   /* formating that will apply to tablets or smaller - Breaks sourced from https://www.optimonk.com/above-the-fold/ - Julie */
-	/* Alanah's code starts here - responsive dropdown nav bar from https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
+	/*Owner:Alanah Reveler*/
+	/*styleing to make navbar responsive*/
+	/*From:https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp*/
+
   .navbar a:not(:first-child), .dropdown .dropbtn {display: none;}
 	.navbar a.icon {
 	  float: right;
@@ -463,7 +473,7 @@ padding-top: 20px;
 	    width: 100%;
 	    text-align: left;
 	}
- 	/*Formate for the database services for small screens*/
+ 	/*Styling to make the data service section responsive*/
 	#databaseSECTION{
 		display:block;
 		max-height:1500px; 
@@ -481,7 +491,8 @@ padding-top: 20px;
 		float: none;	
 	}
 
-  /* Alanah's code ends here */
+  /* End Owner:Alanah Reveler */
+	
 /* Julie's Code Starts Here 
 ** Date: December 1, 2023*/ 
     .staticMap {max-width: 100%; padding-left: 5px }
@@ -500,14 +511,10 @@ padding-top: 20px;
 
 	.staticMap {width: 100%; height: auto; float: none; padding: 5px 5px 5px 5px}
 /* Julie's Code Ends Here */ 
-
+/*alison changed headings to suit cartography page*/
 .cartsection {width:100%; display: flex;
   flex-direction: column; max-height: 600px}
   .carttext {width: 100%; float: none;}
 
   .cartimg {width: 100%; height: auto; float: none; padding: 5px 5px 5px 5px}
 }
-
-
-
-
