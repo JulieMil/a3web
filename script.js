@@ -43,10 +43,10 @@ function Accordion(id) {
 }
 //Owner End:Alanah Reveler 
 
-//Jordan's code starts here
+// Owner: Jordan Steinman
 // submit alert function for contact us form
-// alert function idea from https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert
+// From: https://www.w3schools.com/js/tryit.asp?filename=tryjs_alert
 function submitalert() {
   alert("Your message has been submitted!");
 }
-//Jordan's code ends here
+//Owner End: Jordan Steinman
